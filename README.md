@@ -1,7 +1,7 @@
 # On-chain-graph-data
 **Dataset:**
 
-Nowadays, due to the lack of dataset of consortium blockchain, we select a real Bitcoin dataset to make the evaluation. The dataset has 1048576 rows. Each row is a transaction, including the trader, receiver, price and time information. According to our query operators, the dataset lacks the property, block and timestamp information. So, we abstract the price as the property. We categorize the price into five levels and label each level as a property. Besides, we collect the transactions of the same day as a block, and select the generation timestamp of the last transaction as the block’s timestamp.
+Nowadays, due to the lack of dataset of consortium blockchain, we select a real-world Bitcoin dataset to make the evaluation. The dataset has 1048576 rows. Each row is a transaction, including the trader, receiver, price and time information. According to our query operators, the dataset lacks the property, block and timestamp information. So, we abstract the price as the property. We categorize the price into five levels and label each level as a property. Besides, we collect the transactions of the same day as a block, and select the generation timestamp of the last transaction as the block’s timestamp.
 
 **Why selecting FISCO BCOS:**
 
